@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import headerStyles from './header.module.scss'
+import headerStyles from './modules/header.module.scss'
 import { ReactComponent as Logo } from '../assets/logo-filled.svg'
 
 const Header = () => {
