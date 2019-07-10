@@ -1,0 +1,50 @@
+.form-box {
+    margin: 0 15%;
+}
+
+.form-msg {
+    text-align: center;
+    font-size: .8em;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    line-height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgb(107, 153, 235);
+    outline: 0 none;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    resize: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.actions {
+    text-align: center;
+}
+
+@media screen and (max-width : 600px) {
+    .form-box {
+        margin: 5%;
+    }
+}

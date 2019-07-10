@@ -1,0 +1,59 @@
+@mixin button-reset {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+@mixin contact-button {
+	@include button-reset;
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	margin: .5em;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #131313;
+	text-align: center;
+	transition: all 0.2s;
+	width: 150px;
+	}
+	@media all and (max-width:30em) {
+		button {
+			display: block;
+			margin: 0.4em auto;
+	}
+}
+
+.submit {
+	@include contact-button;
+	color: #515151;
+	border: solid 1px #515151;
+  	border-radius: 4px;
+	&:hover {
+		background: #00ac45;
+		border-color: transparent;
+		color: white;
+	}
+}
+
+// .clear:hover {
+// 	color: #d7d7d7;
+// 	background-color: rgb(203, 0, 0);
+// }
+
+// .submit {
+// 	@include contact-button;
+// 	background: #00f260;
+// 	background: linear-gradient(to bottom, #00f260, #00a241);
+// }
+
+// .submit:hover {
+// 	transition: 2ms;
+// 	color: #d7d7d7;
+// 	background: #00f260;
+// 	background: linear-gradient(to left, #00f260, #00a241);
+// }

@@ -234,7 +234,7 @@ html {
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 2.25rem;
+    font-size: 4rem;
     line-height: 1.1;
   }
   h2 {
@@ -615,8 +615,8 @@ html {
   pre tt:after {
     content: "";
   }
-  @media only screen and (max-width: 480px) {
-    html {
-      font-size: 100%;
-    }
-  }
+  // @media only screen and (max-width: 480px) {
+  //   html {
+  //     font-size: 100%;
+  //   }
+  // }

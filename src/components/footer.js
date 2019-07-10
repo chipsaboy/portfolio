@@ -2,7 +2,7 @@ import React from 'react'
 import { ReactComponent as GitHub } from '../assets/GitHub.svg'
 import { graphql, useStaticQuery } from 'gatsby'
 import linkedin from '../assets/LI-In-Bug.png'
-import footerStyles from './modules/footer.module.scss'
+import footerStyles from '../styles/footer.module.scss'
 
 const Footer = () => {
     const data = useStaticQuery(graphql`
