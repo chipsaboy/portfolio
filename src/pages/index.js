@@ -1,6 +1,5 @@
 import React from "react"
 import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide'
 import Layout from '../components/layout'
 import About from '../components/about'
 import Contact from '../components/contact'
