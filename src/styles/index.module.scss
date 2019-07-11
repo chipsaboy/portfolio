@@ -1,17 +1,23 @@
 .component-page {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .start {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     padding-top: 30vh;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30vh;
+@media screen and (max-width : 550px) {
+    h1 {
+        font-size: 3em !important;
+    }
+    .start {
+        padding-top: 20vh;
+    }
+    .sims {
+        font-size: 20px;
+    }
 }

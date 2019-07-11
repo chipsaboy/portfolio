@@ -17,7 +17,7 @@ const Footer = () => {
 
     return (
         <footer className={footerStyles.footer}>
-            <a href="https://github.com/chipsaboy" className={footerStyles.logos}><GitHub width="30px" /></a>
+            <a href="https://github.com/natecampbell" className={footerStyles.logos}><GitHub width="30px" /></a>
             <a href="https://www.linkedin.com/in/nathncampbell/" className={footerStyles.logos}><img src={linkedin} height="30px" alt="LinkedIn"/></a>
             <p className={footerStyles.footerText}>© 2019 {data.site.siteMetadata.author}</p>
         </footer>
